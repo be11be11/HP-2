@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 .main{
-	background-image: url("jpg その他 image 1.JPEG"); no-repeat; center center;
+	background-image: url("jpg その他 image 1.JPEG"); 
+　　　　　background-repeat:no-repeat;
+　　　　　background-position:top center;
         background-size:contain;
 	margin: 1em auto;
 	padding: 1px;
