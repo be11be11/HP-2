@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+.main{
+	background-image: url("jpg その他 image 1.JPEG"); 
+　　　　　background-size:contain;
+　　　　　background-repeat:no-repeat;
+　　　　　background-position:top center;
+}
+
 .boxRight{
 	background: rgba(200,200,255,0.5); 
 	width: 250px;
@@ -7,11 +14,3 @@
 	padding: 1px;
 	float: right;
 }
-
-.main{
-	background-image: url("jpg その他 image 1.JPEG"); 
-　　　　　background-repeat:no-repeat;
-　　　　　background-position:top center;
-}
-
-
