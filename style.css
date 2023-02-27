@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 .main{
-	 background-image: url(jpg その他 image 1.JPEG);
-	width: 460px;
-	margin: 1.5em auto;
-	padding: 10px;
+	background-image: url(jpg その他 image 1.JPEG) no-repeat center center;
+        background-size:contain;
+	margin: 1em auto;
+	padding: 1px;
 }
 
 .boxRight{
 	background: rgba(200,200,255,0.5); 
 	width: 250px;
 	height: 100px;
-	padding: 10px;
+	padding: 1px;
 	float: right;
 }
 
