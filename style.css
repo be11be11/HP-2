@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
 .main{
-	background-image: url("jpg その他 image 1.JPEG") no-repeat; 
-　　　　　background-position: center top;
-        background-size: contain;
-　　　　　
+	background-image: url("jpg その他 image 1.JPEG") no-repeat center 0 / contain;
 }
 
 .boxRight{
