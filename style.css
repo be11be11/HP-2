@@ -4,7 +4,7 @@
 	background-image: url("jpg その他 image 1.JPEG");
         background-repeat: no-repeat;
         background-position: center top;
-        background-size: contain;
+        background-size: auto;
 }
 
 .boxRight{
