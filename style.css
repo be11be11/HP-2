@@ -2,6 +2,7 @@
 
 .main{
 	background-image: url("jpg その他 image 1.JPEG") no-repeat center top / contain;
+　　　　　overflow: hidden;
 }
 
 .boxRight{
