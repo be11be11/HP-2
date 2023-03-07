@@ -42,7 +42,6 @@
   border:1px solid #10B5C5; 
   width: 25%;       /* 適当な幅を指定 */
   position: absolute; /* 相対位置に指定 */
-　z-index: -10;
 }
 
 .box .ヘア1 {
@@ -51,19 +50,21 @@
   left: 0;
 }
 .box .ヘア2 {
-  /* 右下に固定 */
+  /* 左下に固定 */
   bottom: -5px;
   left: 90px;
 }
   .box .ヘア3 {
-  /* 右下に固定 */
+  /* 右上に固定 */
   top: 0;
   right: 90px;
+　z-index: -10;
 }
  .box .ヘア4 {
   /* 右下に固定 */
   bottom: -5px;
   right: 0;
+　z-index: -10;
  }  
    
    .abox {
@@ -158,20 +159,22 @@
   left: 0;
 }
 .box .ヘア2 {
-  /* 右下に固定 */
+  /* 左下に固定 */
   bottom: -5px;
-  left: 200px;
+  left: 90px;
 }
   .box .ヘア3 {
-  /* 右下に固定 */
+  /* 右上に固定 */
   top: 0;
-  right: 200px;
+  right: 90px;
+　z-index: -10;
 }
  .box .ヘア4 {
   /* 右下に固定 */
   bottom: -5px;
   right: 0;
-} 
+　z-index: -10;
+ }  
 
  .abox {
   margin: 5px;
@@ -264,20 +267,22 @@
   left: 0;
 }
 .box .ヘア2 {
-  /* 右下に固定 */
+  /* 左下に固定 */
   bottom: -5px;
-  left: 350px;
+  left: 90px;
 }
   .box .ヘア3 {
-  /* 右下に固定 */
+  /* 右上に固定 */
   top: 0;
-  right: 350px;
+  right: 90px;
+　z-index: -10;
 }
  .box .ヘア4 {
   /* 右下に固定 */
   bottom: -5px;
   right: 0;
-} 
+　z-index: -10;
+ }  
    
   .abox {
   margin: 5px;
