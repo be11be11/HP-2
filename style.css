@@ -2,23 +2,23 @@
 
 @media screen and (min-width:10px) and (max-width:500px){
   .box {
-  border:1px solid #40B20C10; 
+  border:2px solid lime; 
+  margin: 1px;
   width: 100%;       /* 適当な幅を指定 */
   height: 350px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
 }
-  
+
    .minibox {
   margin: 0px;
   width: 100%; 
   height: 730px; 
-  border:1px solid #70B35C15; 
+  border:1px solid red; 
   background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center; 
 }
-  
     .bar {
    position: fixed; /* 固定配置 */
    top: 10px;  /* 基点（ウィンドウ）からの距離 */
@@ -39,7 +39,7 @@
 
 /* 共通するCSS */
 .box img {
-  border:1px solid #10B5C5; 
+  border:1px solid bule; 
   width: 25%;       /* 適当な幅を指定 */
   position: absolute; /* 相対位置に指定 */
   z-index: -10;
@@ -51,12 +51,12 @@
   left: 0;
 }
 .box .ヘア2 {
-  /* 左下に固定 */
+  /* 右下に固定 */
   bottom: -5px;
   left: 90px;
 }
   .box .ヘア3 {
-  /* 右上に固定 */
+  /* 右下に固定 */
   top: 0;
   right: 90px;
 }
@@ -66,50 +66,62 @@
   right: 0;
  }  
    
-   .abox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #40B4C4; 
-  background-image: url("jpg 店内 image 2.JPG"); 
+  .infobox {
+  width: 95%; 
+  height: 200px; 
+  border:1px solid tomato; 
+  background-image: url("jpg 店内 image 2.JPG");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: bottom,center; 
+}    
+   
+/* 左寄せ共通するCSS */
+.inbox img {
+  border:1px solid orange; 
+  width: 25%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
 }
 
-  .bbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #30B3C3; 
-  background-image: url("jpg メニュー image 1.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-  .cbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #20B2C2; 
-  background-image: url("jpg emiko image 1.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+  .inbox .bbox {
+  margin: 15px;
+  border:1px solid green; 
+   top: 15;
+  left: 15;
+}  
+  .inbox .cbox {
+  margin: 15px;
+  border:1px solid pink; 
+   top: 15;
+  left: 15;
+}  
+  .inbox .dbox {
+   margin: 15px;
+  border:1px solid skyblue; 
+   top: 15;
+  left: 15;
+}  
 
-  .dbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #10B10C10; 
-  background-image: url("jpg 店内 image 3.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
+   /* テキスト右寄*/
+.textbox {
+  border:1px solid plum; 
+  width: 100%;      
+  position: relative;
+} 
+.textinbox {
+  border:1px solid cyan; 
+　 width: 35%;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}     
+  
 }
 
 @media screen and (min-width:501px) and (max-width:1400px){
-  .box {
-  border:1px solid #40B20C10; 
+   .box {
+  border:2px solid lime; 
+   margin: 1px;
   width: 100%;       /* 適当な幅を指定 */
   height: 750px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
@@ -119,7 +131,7 @@
   margin: 0px;
   width: 100%; 
   height: 830px; 
-  border:1px solid #90B45C25; 
+  border:1px solid red; 
   background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
   background-size: contain;
@@ -146,7 +158,7 @@
 
  /* 共通するCSS */
 .box img {
-  border:1px solid #10B5C5; 
+  border:1px solid blue; 
   width: 25%;       /* 適当な幅を指定 */
   position: absolute; /* 相対位置に指定 */
   z-index: -10;
@@ -158,67 +170,77 @@
   left: 0;
 }
 .box .ヘア2 {
-  /* 左下に固定 */
+  /* 右下に固定 */
   bottom: -5px;
-  left: 90px;
+  left: 200px;
 }
   .box .ヘア3 {
-  /* 右上に固定 */
+  /* 右下に固定 */
   top: 0;
-  right: 90px;
-　z-index: -10;
+  right: 200px;
 }
  .box .ヘア4 {
   /* 右下に固定 */
   bottom: -5px;
   right: 0;
-　z-index: -10;
- }  
+} 
 
- .abox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg 店内 image 2.JPG"); 
+  .infobox {
+  width: 95%; 
+  height: 350px; 
+  border:1px solid tomato; 
+  background-image: url("jpg 店内 image 2.JPG");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: bottom,center; 
+}  
+
+ /* 左寄せ共通するCSS */
+.inbox img {
+  border:1px solid orange; 
+  width: 25%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
 }
 
-  .bbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg メニュー image 1.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-  .cbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg emiko image 1.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+  .inbox .bbox {
+  margin: 15px;
+  border:1px solid green; 
+   top: 15;
+  left: 15;
+}  
+  .inbox .cbox {
+  margin: 15px;
+  border:1px solid pink; 
+   top: 15;
+  left: 15;
+}  
+  .inbox .dbox {
+   margin: 15px;
+  border:1px solid skyblue; 
+   top: 15;
+  left: 15;
+}  
 
-  .dbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg 店内 image 3.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
+    /* テキスト右寄*/
+.textbox {
+  border:1px solid plum; 
+  width: 100%;      
+  position: relative;
+} 
+.textinbox {
+  border:1px solid cyan; 
+　 width: 35%;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}    
+  
 }
 
 @media screen and (min-width:1400px) and (max-width:2000px){
   .box {
-  border:1px solid #40B20C10; 
+     border:2px solid lime; 
+   margin: 1px;
   width: 100%;       /* 適当な幅を指定 */
   height: 1000px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
@@ -228,7 +250,7 @@
   margin: 0px;
   width: 100%; 
   height: 830px; 
-  border:1px solid #90B45C25; 
+  border:1px solid red; 
   background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
   background-size: contain;
@@ -255,7 +277,7 @@
 
    /* 共通するCSS */
 .box img {
-  border:1px solid #10B5C5; 
+  border:1px solid blue; 
   width: 25%;       /* 適当な幅を指定 */
   position: absolute; /* 相対位置に指定 */
   z-index: -10;
@@ -267,60 +289,69 @@
   left: 0;
 }
 .box .ヘア2 {
-  /* 左下に固定 */
+  /* 右下に固定 */
   bottom: -5px;
-  left: 90px;
+  left: 350px;
 }
   .box .ヘア3 {
-  /* 右上に固定 */
+  /* 右下に固定 */
   top: 0;
-  right: 90px;
-　z-index: -10;
+  right: 350px;
 }
  .box .ヘア4 {
   /* 右下に固定 */
   bottom: -5px;
   right: 0;
-　z-index: -10;
- }  
+} 
    
-  .abox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg 店内 image 2.JPG"); 
+  .infobox {
+  width: 95%; 
+  height: 450px; 
+  border:1px solid tomato; 
+  background-image: url("jpg 店内 image 2.JPG");
   background-repeat: no-repeat;
   background-size: contain;
-}
+  background-position: bottom,center; 
+}     
 
-  .bbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg メニュー image 1.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-  .cbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg emiko image 1.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-  .dbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg 店内 image 3.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+ /* 左寄せ共通するCSS */
+.inbox img {
+  border:1px solid orange; 
+  width: 25%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
+}  
+  .inbox .bbox {
+  margin: 15px;
+  border:1px solid green; 
+   top: 15;
+  left: 15;
+}  
+  .inbox .cbox {
+  margin: 15px;
+  border:1px solid pink; 
+   top: 15;
+  left: 15;
+}  
+  .inbox .dbox {
+   margin: 15px;
+  border:1px solid skyblue; 
+   top: 15;
+  left: 15;
+}  
+  
+   /* テキスト右寄*/
+.textbox {
+  border:1px solid plum; 
+  width: 100%;      
+  position: relative;
+} 
+.textinbox {
+  border:1px solid cyan; 
+　 width: 35%;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}   
+  
 
 }
