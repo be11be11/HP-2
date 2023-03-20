@@ -8,6 +8,7 @@
   height: 350px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
   box-sizing: border-box;  
+  overflow: hidden;
 }
 
 .box>div{
