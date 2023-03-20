@@ -10,6 +10,11 @@
   box-sizing: border-box;  
 }
 
+.box>div{
+    height: 345px;
+    border:1px solid #D49999; 
+    background-color:rgba(0,250,200,0.2);
+}    
    .sikiri {
   border:2px solid violet; 
   margin: 1px;
