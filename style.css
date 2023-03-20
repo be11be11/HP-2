@@ -9,6 +9,14 @@
   position: relative; /* 基準位置とする */
 }
 
+   .sikiri {
+  border:2px solid violet; 
+  margin: 1px;
+  width: 100%;       /* 適当な幅を指定 */
+  height: 350px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
+}
+  
    .minibox {
   margin: 0px;
   width: 100%; 
@@ -122,6 +130,14 @@
    .box {
   border:2px solid lime; 
    margin: 1px;
+  width: 100%;       /* 適当な幅を指定 */
+  height: 750px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
+}
+  
+    .sikiri {
+  border:2px solid violet; 
+  margin: 1px;
   width: 100%;       /* 適当な幅を指定 */
   height: 750px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
@@ -245,7 +261,15 @@
   height: 1000px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
 }
-   
+ 
+      .sikiri {
+  border:2px solid violet; 
+  margin: 1px;
+  width: 100%;       /* 適当な幅を指定 */
+  height: 1000px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
+}
+  
    .minibox {
   margin: 0px;
   width: 100%; 
