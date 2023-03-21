@@ -2,7 +2,7 @@
 
 @media screen and (min-width:10px) and (max-width:500px){
   .box {
-　line-height: 85%;
+　line-height: 65%;
   border:2px solid lime; 
   margin: 1px;
   width: 100%;       /* 適当な幅を指定 */
@@ -11,7 +11,7 @@
 }
 
 .box>div{
-    line-height: 85%;
+    line-height: 65%;
     height: 345px;
     border:1px solid #D49999; 
     background-color:rgba(0,250,200,0.2);
@@ -119,13 +119,13 @@
 
    /* テキスト右寄*/
 .textbox {
-  line-height: 85%;
+  line-height: 65%;
   border:1px solid plum; 
   width: 100%;      
   position: relative;
 } 
 .textinbox {
-  line-height: 85%;
+  line-height: 65%;
   border:1px solid cyan; 
 　 width: 35%;
   position: absolute;
