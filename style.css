@@ -10,6 +10,7 @@
 }
 
 .box>div{
+    line-height: 20%;
     display: block;
     height: 345px;
     border:1px solid #D49999; 
@@ -130,9 +131,11 @@
   top: 50px;
   right: 50px;
   display: block;
+  line-height: 20%;
 }     
   
 }
+
 
 
 @media screen and (min-width:501px) and (max-width:1400px){
