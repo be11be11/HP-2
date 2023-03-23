@@ -10,6 +10,7 @@
 }
 
 .box>div{
+    display: block;
     height: 345px;
     border:1px solid #D49999; 
     background-color:rgba(0,250,200,0.2);
@@ -128,6 +129,7 @@
   position: absolute;
   top: 50px;
   right: 50px;
+  display: block;
 }     
   
 }
