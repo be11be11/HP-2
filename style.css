@@ -2,16 +2,13 @@
 
 @media screen and (min-width:10px) and (max-width:500px){
   .box {
-　line-height: 20%;
   border:2px solid lime; 
   width: 100%;       /* 適当な幅を指定 */
   height: 350px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
 }
 
-.box>div{
-    line-height: 20%;
-    display: block;
+ .box>div {
     height: 345px;
     border:1px solid #D49999; 
     background-color:rgba(0,250,200,0.2);
@@ -20,7 +17,7 @@
   border:2px solid violet; 
   margin: 1px;
   width: 100%;       /* 適当な幅を指定 */
-  height: 350px;       /* 適当な高さを指定 */
+  height: 75px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
 }
      
@@ -45,11 +42,11 @@
   
    p {
   text-align:center; 
-  line-height: 60px;
+  line-height: 50%;
 }
   
    .fixed p {
-  line-height: 20px;
+  line-height: 45%;
 }
 
 /* 共通するCSS */
@@ -94,7 +91,7 @@
 /* 左寄せ共通するCSS */
 .inbox img {
   border:1px solid orange; 
-  width: 25%;       /* 適当な幅を指定 */
+  width: 35%;       /* 適当な幅を指定 */
   position: absolute; /* 相対位置に指定 */
 }
 
@@ -119,7 +116,6 @@
 
    /* テキスト右寄*/
 .textbox {
-  line-height: 15%;
   border:1px solid plum; 
   width: 100%;      
   position: relative;
@@ -130,8 +126,6 @@
   position: absolute;
   top: 50px;
   right: 50px;
-  display: block;
-  line-height: 20%;
 }     
   
 }
