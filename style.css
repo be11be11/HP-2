@@ -42,11 +42,11 @@
   
    p {
   text-align:center; 
-  line-height: 60%;
+  line-height: 90%;
 }
   
    .fixed p {
-  line-height: 55%;
+  line-height: 85%;
 }
 
 /* 共通するCSS */
