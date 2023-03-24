@@ -10,8 +10,10 @@
 
  .box>div {
     height: 345px;
-    border:1px solid #D49999; 
-    background-color:rgba(0,250,200,0.2);
+    border:1px solid teal; 
+    background-color:rgba(0,150,250,0.2);
+　　display: flex;
+    
 }    
    .sikiri {
   border:2px solid violet; 
@@ -51,7 +53,7 @@
 
 /* 共通するCSS */
 .box img {
-  border:1px solid bule; 
+  border:1px solid aqua; 
   width: 25%;       /* 適当な幅を指定 */
   position: absolute; /* 相対位置に指定 */
   z-index: -10;
@@ -127,6 +129,7 @@
   top: 70px;
   right: 10px;
 　line-height: 85%;
+　verflow-wrap: break-word;
 　text-align: start;
 }     
   
